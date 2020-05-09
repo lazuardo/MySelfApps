@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Jw_W">200dp</dimen>
+    <dimen name="Jw_H">600dp</dimen>
+</resources>
