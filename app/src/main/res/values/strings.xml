@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JWan Apps</string>
+    <string name="H1">HEADING</string>
+    <string name="D1">Description</string>
 </resources>

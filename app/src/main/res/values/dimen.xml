@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="Jw_W">200dp</dimen>
-    <dimen name="Jw_H">600dp</dimen>
+    <dimen name="Jw_W_Splash">200dp</dimen>
+    <dimen name="Jw_H_Splash">600dp</dimen>
+    <dimen name="Jw_H_VPager">670dp</dimen>
+
+    <dimen name="Jw16">16dp</dimen>
+    <dimen name="Jw18">18dp</dimen>
+    <dimen name="Jw20">20dp</dimen>
+    <dimen name="Jw24">24dp</dimen>
+    <dimen name="Jw60">60dp</dimen>
+    <dimen name="Jw100">100dp</dimen>
+    <dimen name="Jw120">120dp</dimen>
+    <dimen name="Jw150">150dp</dimen>
+    <dimen name="Jw170">170dp</dimen>
+    <dimen name="Jw180">180dp</dimen>
+    <dimen name="Jw200">200dp</dimen>
+    <dimen name="Jw220">220dp</dimen>
 </resources>

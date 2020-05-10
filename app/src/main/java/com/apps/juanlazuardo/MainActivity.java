@@ -7,6 +7,11 @@ package com.apps.juanlazuardo;
     Update  :
         9 Mei 2020 : - Membuat Splash Screen
                      - Merubah Icon Aplikasi
+                     - Update Github " Membuat Splash Screen"
+
+    10-11 Mei 2020 : - Membuat Asset untuk ViewPager
+                     - Membuat 3 ViewPager dengan Metode OnBoarding Screen Design
+                     - Update Github "Membuat ViewPager dengan Metode OnBoarding Screen Design"
 
     */
 import androidx.appcompat.app.AppCompatActivity;
