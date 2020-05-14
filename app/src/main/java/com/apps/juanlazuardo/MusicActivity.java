@@ -1,22 +1,5 @@
 package com.apps.juanlazuardo;
-    /*
 
-    NIM     : 10117160
-    NAMA    : JUAN LAZUARDO
-    KELAS   : AKB-4 / IF-4
-    Update  :
-        9 Mei 2020 : - Membuat Splash Screen
-                     - Merubah Icon Aplikasi
-                     - Update Github " Membuat Splash Screen"
-
-    10-11 Mei 2020 : - Membuat Asset untuk ViewPager
-                     - Membuat 3 ViewPager dengan Metode OnBoarding Screen Design
-                     - Update Github "Membuat ViewPager dengan Metode OnBoarding Screen Design"
-
-       14 Mei 2020 : - Membuat Buttom Navigation VIew
-       15 Mei 2020 :
-
-    */
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,18 +9,18 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class MusicActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_music);
 
         //inisialisasi variabel
         BottomNavigationView bottomNavigationView = findViewById(R.id.bot_nav);
 
         //Set Main Selected
-        bottomNavigationView.setSelectedItemId(R.id.home);
+        bottomNavigationView.setSelectedItemId(R.id.music);
 
         //selected listener
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -55,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
                         overridePendingTransition(0, 0);
                         return true;
                     case R.id.home:
+                        startActivity(new Intent(getApplicationContext()
+                                , MainActivity.class));
+                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.music:
-                        startActivity(new Intent(getApplicationContext()
-                                , MusicActivity.class));
-                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.profile:
                         startActivity(new Intent(getApplicationContext()

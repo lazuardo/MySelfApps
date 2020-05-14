@@ -31,7 +31,7 @@ public class Slider extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slider);
 
-        mSlideViewPager = (ViewPager) findViewById(R.id.slideviewpager);
+        mSlideViewPager = (ViewPager)    findViewById(R.id.slideviewpager);
         mDotLayout = (LinearLayout) findViewById(R.id.dotslayout);
 
         mNextBtn = (Button)findViewById(R.id.nextBtn);

@@ -2,4 +2,9 @@
     <string name="app_name">JWan Apps</string>
     <string name="H1">HEADING</string>
     <string name="D1">Description</string>
+    <string name="Daily">Daily</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Music">Music</string>
+    <string name="About">About</string>
+
 </resources>
