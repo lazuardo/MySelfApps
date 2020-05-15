@@ -20,6 +20,7 @@ package com.apps.juanlazuardo;
                      - Membuat Custom Dialog
 
        15 Mei 2020 : - Membuat Tampilan Menu Music
+                     - Membuat Tampilan Daily
 
 
     */
