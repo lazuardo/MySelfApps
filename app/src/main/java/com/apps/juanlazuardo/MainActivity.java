@@ -14,9 +14,12 @@ package com.apps.juanlazuardo;
                      - Update Github "Membuat ViewPager dengan Metode OnBoarding Screen Design"
 
        13 Mei 2020 : - Membuat Buttom Navigation VIew
+
        14 Mei 2020 : - Membuat Tampilan Menu Home
                      - Membuat Tampilan Profile + Webview + Maps untuk FindMe
                      - Membuat Custom Dialog
+
+       15 Mei 2020 : - Membuat Tampilan Menu Music
 
 
     */
