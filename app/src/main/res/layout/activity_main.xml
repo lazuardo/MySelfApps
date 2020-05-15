@@ -4,16 +4,172 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/slider_background">
 
-    <TextView
+    <RelativeLayout
+        android:id="@+id/imgWrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/imgHome"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgJuan"
+                android:layout_width="@dimen/Jw120"
+                android:layout_marginTop="@dimen/Jw60"
+                android:layout_height="@dimen/Jw120"
+                android:padding="@dimen/Jw5"
+                android:src="@drawable/ic_profile_juan"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/desc_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/HiThere"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/imgHome"
+            android:textSize="@dimen/Jw16"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/Ly_Hobby"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textSize="@dimen/Jw60"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"
-        />
+        android:layout_below="@+id/imgWrp"
+        android:layout_marginTop="@dimen/Jw20">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/hobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Hobby"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/Jw24"
+                    android:gravity="center"/>
+                
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Ly_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ly_Hobby"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/Jw10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                
+                <ImageView
+                    android:id="@+id/fish"
+                    android:layout_width="@dimen/Jw100"
+                    android:layout_height="@dimen/Jw100"
+                    android:src="@drawable/ic_fishing"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/pad"
+                    android:layout_width="@dimen/Jw100"
+                    android:layout_height="@dimen/Jw100"
+                    android:src="@drawable/ic_gamepad"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Ly_Want"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ly_img"
+        android:layout_marginTop="@dimen/Jw20">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/want"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Want"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/Jw24"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Ly_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ly_Want"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/Jw10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgwant"
+                    android:layout_width="@dimen/Jw100"
+                    android:layout_height="@dimen/Jw100"
+                    android:src="@drawable/ic_people"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"

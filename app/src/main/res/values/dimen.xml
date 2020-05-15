@@ -4,9 +4,13 @@
     <dimen name="Jw_H_Splash">600dp</dimen>
     <dimen name="Jw_H_VPager">670dp</dimen>
 
+    <dimen name="Jw5">5dp</dimen>
+    <dimen name="Jw10">10dp</dimen>
+    <dimen name="Jw15">15dp</dimen>
     <dimen name="Jw16">16dp</dimen>
     <dimen name="Jw18">18dp</dimen>
     <dimen name="Jw20">20dp</dimen>
+    <dimen name="Jw25">25dp</dimen>
     <dimen name="Jw24">24dp</dimen>
     <dimen name="Jw60">60dp</dimen>
     <dimen name="Jw100">100dp</dimen>

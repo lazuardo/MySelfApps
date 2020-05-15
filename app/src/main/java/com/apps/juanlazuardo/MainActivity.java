@@ -13,8 +13,11 @@ package com.apps.juanlazuardo;
                      - Membuat 3 ViewPager dengan Metode OnBoarding Screen Design
                      - Update Github "Membuat ViewPager dengan Metode OnBoarding Screen Design"
 
-       14 Mei 2020 : - Membuat Buttom Navigation VIew
-       15 Mei 2020 :
+       13 Mei 2020 : - Membuat Buttom Navigation VIew
+       14 Mei 2020 : - Membuat Tampilan Menu Home
+                     - Membuat Tampilan Profile + Webview + Maps untuk FindMe
+                     - Membuat Custom Dialog
+
 
     */
 import androidx.annotation.NonNull;

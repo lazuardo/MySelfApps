@@ -6,5 +6,18 @@
     <string name="Gallery">Gallery</string>
     <string name="Music">Music</string>
     <string name="About">About</string>
-
+    <string name="Hobby">MY HOBBY</string>
+    <string name="Want">I WANNA BE </string>
+    <string name="HiThere">Hi There, My Name is Juan Lazuardo. You can call me Juan. I’m Graphic Desginer , Software engineer and Videographer.</string>
+    <string name="HiThere2">Hi There, My Name is Juan Lazuardo. You can call me Juan. I’m Graphic Desginer ,
+        Software engineer and Videographer.I was born on July 21, 1999. I am a student from one of the universities in Indonesia. This is my Self Apps.
+        I hope you enjoy with the content that I made. Thanks :).</string>
+    <string name="myIG">If you want to closer with me, just visit my Facebook.</string>
+    <string name="findme">Or You can find me here</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="AboutAPK">ABOUT THIS APPS</string>
+    <string name="AboutSDK">SDK VERSION 29</string>
+    <string name="AboutVersion">APPS VERSION 1.0</string>
+    <string name="AboutApps">MY SELF APPS V1.0</string>
+    <string name="AboutCreative">DESIGN BY JUAN LAZUARDO</string>
 </resources>

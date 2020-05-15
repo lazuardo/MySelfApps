@@ -4,16 +4,140 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/slider_background"
     tools:context=".AboutActivity">
-
-    <TextView
+    <RelativeLayout
+        android:id="@+id/imgWrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/imgHome"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgJuan"
+                android:layout_width="@dimen/Jw120"
+                android:layout_marginTop="@dimen/Jw60"
+                android:layout_height="@dimen/Jw120"
+                android:padding="@dimen/Jw5"
+                android:src="@drawable/ic_profile_juan"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/desc_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/HiThere2"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/imgHome"
+            android:textSize="@dimen/Jw16"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/myIG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgWrp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/Jw20">
+        <TextView
+            android:id="@+id/desc_ig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myIG"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Jw16"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/Ly_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/About"
-        android:textSize="@dimen/Jw60"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"
-        />
+        android:layout_below="@+id/myIG"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/Jw10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgIG"
+                    android:layout_width="@dimen/Jw60"
+                    android:layout_height="@dimen/Jw60"
+                    android:src="@drawable/ic_fb"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ly_img"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/Jw10">
+        <TextView
+            android:id="@+id/desc_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/findme"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Jw16"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/Ly_findme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/find"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/Jw10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgFind"
+                    android:layout_width="@dimen/Jw60"
+                    android:layout_height="@dimen/Jw60"
+                    android:src="@drawable/ic_findme"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/bot_nav"
+        android:layout_marginBottom="@dimen/Jw20">
+
+        <TextView
+            android:id="@+id/aboutapps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/Jw20"
+            android:layout_marginBottom="@dimen/Jw20"
+            android:textColor="@color/colorWhite"
+            android:text="@string/AboutAPK"/>
+
+    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
